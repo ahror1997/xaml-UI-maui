@@ -1,4 +1,5 @@
-﻿using MobileAppDesigns.Views.PlantShop;
+﻿using MobileAppDesigns.Views.CarRent;
+using MobileAppDesigns.Views.PlantShop;
 
 namespace MobileAppDesigns
 {
@@ -9,6 +10,7 @@ namespace MobileAppDesigns
             InitializeComponent();
 
             Routing.RegisterRoute(nameof(SignInPage), typeof(SignInPage));
+            Routing.RegisterRoute(nameof(DetailsPage), typeof(DetailsPage));
         }
     }
 }

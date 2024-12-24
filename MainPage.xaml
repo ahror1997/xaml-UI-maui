@@ -32,10 +32,17 @@
                 HorizontalOptions="Fill" />
 
             <Button
+                x:Name="CarRentBtn"
+                Text="CarRent Design"
+                Clicked="CarRentBtn_Clicked"
+                HorizontalOptions="Fill" />
+
+            <Button
                 x:Name="PlantShopBtn"
                 Text="PlantShop Design"
                 Clicked="PlantShopBtn_Clicked"
                 HorizontalOptions="Fill" />
+            
         </VerticalStackLayout>
     </ScrollView>
 

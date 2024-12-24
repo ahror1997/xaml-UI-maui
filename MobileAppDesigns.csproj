@@ -69,6 +69,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\CarRent\DetailsPage.xaml.cs">
+	    <DependentUpon>DetailsPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\CarRent\DetailsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\PlantShop\SignInPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
