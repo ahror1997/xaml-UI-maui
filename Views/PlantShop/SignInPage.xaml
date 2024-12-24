@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAppDesigns.Views.PlantShop.SignInPage">
+    <VerticalStackLayout Margin="20">
+        
+        <Image Source="plant_shop.png" WidthRequest="40" HeightRequest="60"
+               HorizontalOptions="Center" />
+
+        <HorizontalStackLayout HorizontalOptions="Center" Margin="0, 0, 0, 40">
+            <Label Text="Plant" FontSize="Large" FontAttributes="Bold"
+                   TextColor="#C4C4C4" />
+            <Label Text="SHOP" FontSize="Large" FontAttributes="Bold"
+                   TextColor="#004643" />
+        </HorizontalStackLayout>
+
+        <Label Text="Sign in to your account" TextColor="#004643"
+               WidthRequest="219" HeightRequest="27" FontSize="20"
+               HorizontalOptions="CenterAndExpand" />
+
+        <VerticalStackLayout Spacing="5" Margin="0, 10">
+            <Label Text="Email Address" TextColor="#004643" />
+            <Frame CornerRadius="20">
+                <Entry Placeholder="Enter your email address" />
+            </Frame>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout Spacing="5" Margin="0, 10">
+            <Label Text="Password" TextColor="#004643" />
+            <Frame CornerRadius="20">
+                <Entry Placeholder="Enter your password" IsPassword="True" />
+            </Frame>
+        </VerticalStackLayout>
+        
+        <Label Text="Forgot password?" HorizontalOptions="End"
+               Margin="0, 10" />
+
+        <HorizontalStackLayout HorizontalOptions="Center" Margin="0, 10">
+            <RadioButton />
+            <Label Text="I've read and agreed to " />
+            <Label Text="User Agreement" TextColor="#004643" />
+            <Label Text=" and " />
+            <Label Text="Privacy Policy" TextColor="#004643" />
+        </HorizontalStackLayout>
+
+        <Button Text="Sign in" BackgroundColor="#004643" TextColor="White"
+                WidthRequest="310" HeightRequest="50" HorizontalOptions="Center" />
+
+        <Label Text="other way to sign in" HorizontalOptions="Center"
+               FontSize="12" LineHeight="16" Margin="15" />
+
+        <HorizontalStackLayout Spacing="5" HorizontalOptions="Center" Margin="0, 20">
+            <Frame CornerRadius="50">
+                <Image Source="google.png" WidthRequest="48" HeightRequest="48" />
+            </Frame>
+            <Frame CornerRadius="50">
+                <Image Source="facebook.png" WidthRequest="48" HeightRequest="48" />
+            </Frame>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
+            <Label Text="Don't have an account?" />
+            <Label Text="Create Account" TextColor="#004643" />
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>
